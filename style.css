@@ -1,0 +1,149 @@
+html, body {
+   scroll-behavior: smooth;
+   margin: 0px;
+   padding: 0;
+}
+h{
+   font-size: 1.5rem; 
+   margin-top: 10px;
+
+   background-color: #333;
+}
+strong{
+   font-family: 'Courier New', 'Courier', 'monospace';
+   text-align: center;
+   display: flex;
+   font-size: large;
+   margin-top: 120px ;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 200px;
+}
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: #333;
+   color: #fff; 
+   line-height: 1.5;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+header {
+   background-image: url('work.jpg');
+   color: #fff;
+   padding: 20px;
+   width: 100%;
+}
+header h1{
+   text-align: left;
+}
+header img {
+   max-width: 150px;
+   height: auto;
+}
+
+h1 {
+   font-size: 1.5rem; 
+   margin-top: 10px;
+   max-width: 20%;
+
+}
+
+p {
+   font-size: 1rem; 
+   color: #dabfa7;
+}
+
+#nav ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #333;
+}
+
+#nav ul li {
+   margin: 0;
+}
+#nav ul li a {
+   text-decoration: none;
+   color: #fff;
+   display: block;
+   padding: 10px;
+
+}
+#nav a:hover {
+   display: block;
+   padding: 10px;
+   background-color: #544f4f;
+   color:#ffffff;
+}
+section {
+   padding: 20px;
+   min-height: 600px;
+}
+
+h1 {
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+}
+h2 {
+   font-size: 1rem; 
+   margin-top: 10px;
+}
+h3{
+   font-weight: bolder;
+}
+
+ul {
+   margin-left: 20px;
+}
+
+dd {
+   margin-top: 10px;
+}
+#About{
+   margin-top: 35%;
+   
+}
+#About p, h1{
+   padding-left: 50%;
+}
+#About img {
+   width: 20%;
+   float:left;
+   width: 240px; 
+   margin-left: 210px; 
+   height: 350px;
+}
+#Education img {
+   width: 20%;
+   float:left;
+   width: 240px; 
+   margin-left: 210px; 
+   height: auto;
+}
+#Education p, h1, h4{
+   padding-left: 50%;
+}
+#Experience img {
+   width: 30%;
+   float: right;
+   margin-left: 20px;
+}
+
+.contact-info {
+   font-size: 1rem;
+}
+header p, header h1{
+   background-color: #333;
+   text-align: left;
+}
+
+.tel {
+   color: #0077b6;
+   font-weight: bold;
+}
+
+.email {
+   color: #0077b6;
+   text-decoration: none;
+}
